@@ -1,0 +1,24 @@
+.btn-number{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+}
+
+.btn-operator{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+}
+
+.operator-plus{
+    height: 150px;
+    width: 50px;
+    background-color: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+}
