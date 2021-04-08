@@ -19,34 +19,39 @@
     <div class="container">
             <br>
             <div id="div-calculator" class="container calculator">
-                <h1>Calculadora</h1>
                 <br>
                 <div class="container div-row">
-                    <button type="button" class="btn btn-number" onClick="setValue(1)">1</button>
-                    <button type="button" class="btn btn-number" onClick="setValue(2)">2</button>
-                    <button type="button" class="btn btn-number" onClick="setValue(3)">3</button>
-                    <button type="button" class="btn-number btn" onClick="setValue('+')"><i class="fas fa-plus"></i></button>
-                    <button type="button" class="btn-number btn" onClick="setValue('*')"><i class="fas fa-times"></i></button>
+                    <h5 id="h5Value">&nbsp;</h5>
+                    <h1 id="h1Value">&nbsp;</h1>
+                    <h1 id="h1Parcial"></h1>
+                </div>
+                <div id="div-buttons" class="container">
+                    <div class="container div-row">
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(1)">1</button>
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(2)">2</button>
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(3)">3</button>
+                        <button type="button" class="btn-number btn bg-dark" onClick="setValue('+')"><i class="fas fa-plus"></i></button>
+                        <button type="button" class="btn-number btn bg-dark" onClick="setValue('*')"><i class="fas fa-times"></i></button>
+                        <button type="button" class="btn-number btn bg-dark" onClick="setValue('c')"><b>C</b></button>
+                    </div>
+                    <div class="container div-row">
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(4)">4</button>
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(5)">5</button>
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(6)">6</button>
+                        <button type="button" class="btn-number btn bg-dark" onClick="setValue('-')"><i class="fas fa-minus"></i></button>
+                        <button type="button" class="btn-number btn bg-dark" onClick="setValue('/')"><i class="fas fa-divide"></i></button>
+                        <button type="button" class="btn-number btn bg-dark" onClick="setValue('ce')"><b>CE</b></button>
 
+                    </div>
+                    <div class="container div-row">
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(7)">7</button>
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(8)">8</button>
+                        <button type="button" class="btn btn-number bg-dark" onClick="setValue(9)">9</button>
+                        <button id="btn-equals" type="button" class="btn-number btn" onClick="setValue('=')"><i class="fas fa-equals" style="color: white;"></i></button>
+                    </div>
                 </div>
-                <div class="container div-row">
-                    <button type="button" class="btn btn-number" onClick="setValue(4)">4</button>
-                    <button type="button" class="btn btn-number" onClick="setValue(5)">5</button>
-                    <button type="button" class="btn btn-number" onClick="setValue(6)">6</button>
-                    <button type="button" class="btn-number btn" onClick="setValue('-')"><i class="fas fa-minus"></i></button>
-                    <button type="button" class="btn-number btn" onClick="setValue('/')"><i class="fas fa-divide"></i></button>
-                </div>
-                <div class="container div-row">
-                    <button type="button" class="btn btn-number" onClick="setValue(7)">7</button>
-                    <button type="button" class="btn btn-number" onClick="setValue(8)">8</button>
-                    <button type="button" class="btn btn-number" onClick="setValue(9)">9</button>
-                    <button id="btn-equals" type="button" class="btn-number btn" onClick="setValue('=')"><i class="fas fa-equals" style="color: white;"></i></button>
-                </div>
-                <div class="container div-row">
-                    <br>
-                    <h5 id="h5Value"></h5>
-                    <h1 id="h1Value"></h1>
-                </div>
+                <br>
+                
             
                 <!-- <div class="btn-group btn-group-row" role="group" aria-label="Basic example">
                     <button type="button" class="btn-number btn btn-primary" onClick="setValue(1)"><h1>1</h1></button>

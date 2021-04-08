@@ -2,7 +2,7 @@
     background-color: orange;
     border: none;
 
-    width: 16.8%;
+    width: 49%;
 }
 
 #h5Value{
@@ -10,11 +10,35 @@
 }
 
 #h1Value{
+    padding: 10px;;
     color:dimgray;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
-/* #div-calculator{
-     background-color: yellow; 
-} */
+ #div-calculator{
+    background-color: #333a40;
+    border: solid 1px #aaaaaa;
+    border-radius: 20px;
+    width: 40%;
+
+}
+
+#div-buttons{
+    padding: 0;
+    /* background-color: red;; */
+}
+/*
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
 
 .div-row{
     /* background-color: blue; */
@@ -25,13 +49,23 @@
     /* width: 50%; */
 }
 .btn-number{
-    /* height: 50px; */
-    width: 8%;
+    border-radius: 20px;
+    height: 60px;
+    width: 15%;
     text-align: center;
     padding: 0;
-    margin: 0.2%;
+    margin: 0.4%;
     font-size: 150%;
     border: solid 1px #AAAAAA;
+    color: white;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.btn-number:hover{
+   
+    color: #dddddd;
+    background-color: #404950 !important;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
